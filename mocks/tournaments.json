@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "tournoi de paris",
+        "location": "paris", 
+        "start_date": "2021-12-12T12:00",
+        "end_date": "2022-01-31T14:00",
+        "rounds": [
+            {   "name": "FIRST GAME",
+                "matchs": [
+                    {   "player_1_Id": 2,
+                        "player_2_Id": 3,
+                        "winner": "Player1"
+                    }
+                ],
+                "start_date": "2021-12-12T12:00",
+                "end_date": "2022-01-31T14:00"
+                }
+        ],
+        "number_of_rounds": 4,
+        "players": [1, 2, 5, 7],
+        "time_control": "Bullet",
+        "description": "Le tournoi des maîtres"
+    }
+]
