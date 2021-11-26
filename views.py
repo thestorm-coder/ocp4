@@ -1,5 +1,5 @@
 import os
-from typing import Any, List
+from typing import Any, List, Tuple
 from models.player import Player
 
 
@@ -40,9 +40,9 @@ class Menu(View):
 
 class Form(View):
     """"cette classe permet à l'utilisateur de renseigner des champs dont les valeurs lui sont retournées sous forme de dictionnaire""" 
-    def __init__(self, title, fields):
+    def __init__(self, title: str, fields: List[Tuple[str, str]]):
         self.fields = fields
-        super().__init__(title)
+        super().__init__(title=title)
 
     def show(self):
         """cette méthode permet à l'utilisateur de remplir un ensemble de champ et de les retourner sous forme de dictionnaire"""
@@ -98,7 +98,7 @@ class NewTournament(Form):
 class NewPlayer(Form):
     """ cette class permet l'inscription d'un joueur """
     def __init__(self):
-        super().__init__(title="Nouveau joueur", fields=["First name", "last name", "Birth day", "Gender", "Rank"])
+        super().__init__(title="Création d'un nouveau joueur", fields=[("first_name", "Prénom"), ("last_name", "Nom"), ("birth_date", "Date de naissance"), ("gender", "Sexe"), ("rank", "Position")])
 
 
 class PlayersMenu(Menu):
