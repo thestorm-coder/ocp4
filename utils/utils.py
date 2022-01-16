@@ -24,6 +24,14 @@ class TimeControl(Enum):
 
 class Description(str):
     def __new__(cls, value):
-        if not re.match(r"^[A-Za-z\- 'éèàùë]{2,40}$", value):
+        if not re.match(r"^[A-Za-z\- 'éèàùë]{0,40}$", value):
             raise ValueError("Le prénom est incorrect")
         return str.__new__(str, value)
+
+
+class Result(Enum):
+    Win = 1.0
+    Lose = 0.0
+    Draw = 0.5
+
+

@@ -1,0 +1,202 @@
+{
+    "players": {
+        "1": {
+            "birth_date": "1990-11-30",
+            "first_name": "Magnus",
+            "gender": "H",
+            "id": 1,
+            "last_name": "Carlsen",
+            "rank": 2855
+        },
+        "2": {
+            "birth_date": "1992-07-30",
+            "first_name": "Fabiano",
+            "gender": "H",
+            "id": 2,
+            "last_name": "Caruana",
+            "rank": 2800
+        },
+        "3": {
+            "birth_date": "1992-10-24",
+            "first_name": "Ding",
+            "gender": "H",
+            "id": 3,
+            "last_name": "Liren",
+            "rank": 2799
+        },
+        "4": {
+            "birth_date": "1990-07-14",
+            "first_name": "Ian",
+            "gender": "H",
+            "id": 4,
+            "last_name": "Nepomniachtchi",
+            "rank": 2792
+        },
+        "5": {
+            "birth_date": "1982-10-06",
+            "first_name": "Levon",
+            "gender": "H",
+            "id": 5,
+            "last_name": "Aronian",
+            "rank": 2782
+        },
+        "6": {
+            "birth_date": "1985-04-12",
+            "first_name": "Shakhriyar",
+            "gender": "H",
+            "id": 6,
+            "last_name": "Mamedyarov",
+            "rank": 2000
+        },
+        "42": {
+            "birth_date": "1983-10-31",
+            "first_name": "Alexander",
+            "gender": "H",
+            "id": 42,
+            "last_name": "Grischuk",
+            "rank": 2775
+        },
+        "8": {
+            "birth_date": "1994-06-28",
+            "first_name": "Anish",
+            "gender": "H",
+            "id": 8,
+            "last_name": "Giri",
+            "rank": 2777
+        },
+        "9": {
+            "id": 9,
+            "last_name": "Paul",
+            "first_name": "Pierre",
+            "birth_date": "1991-01-28",
+            "gender": "H",
+            "rank": 45
+        },
+        "10": {
+            "id": 10,
+            "last_name": "manu",
+            "first_name": "jean",
+            "birth_date": "1957-12-24",
+            "gender": "H",
+            "rank": 69
+        }
+    },
+    "tournaments": {
+        "1": {
+            "id": 1,
+            "name": "Grand T",
+            "location": "Fistini\u00e8re",
+            "start_date": "2021-12-31T10:45:11.281513",
+            "end_date": null,
+            "rounds": [
+                {
+                    "name": "round 1",
+                    "matchs": [],
+                    "start_date": "2021-12-31T10:45:11.280625",
+                    "end_date": null
+                },
+                {
+                    "name": "round 2",
+                    "matchs": [],
+                    "start_date": "2021-12-31T10:45:11.280625",
+                    "end_date": null
+                },
+                {
+                    "name": "round 3",
+                    "matchs": [],
+                    "start_date": "2021-12-31T10:45:11.280625",
+                    "end_date": null
+                },
+                {
+                    "name": "round 4",
+                    "matchs": [],
+                    "start_date": "2021-12-31T10:45:11.280625",
+                    "end_date": null
+                },
+                {
+                    "name": "round 5",
+                    "matchs": [],
+                    "start_date": "2021-12-31T10:45:11.280625",
+                    "end_date": null
+                },
+                {
+                    "name": "round 6",
+                    "matchs": [],
+                    "start_date": "2021-12-31T10:45:11.280625",
+                    "end_date": null
+                },
+                {
+                    "name": "round 7",
+                    "matchs": [],
+                    "start_date": "2021-12-31T10:45:11.280625",
+                    "end_date": null
+                },
+                {
+                    "name": "round 8",
+                    "matchs": [],
+                    "start_date": "2021-12-31T10:45:11.280625",
+                    "end_date": null
+                },
+                {
+                    "name": "round 9",
+                    "matchs": [],
+                    "start_date": "2021-12-31T10:45:11.280625",
+                    "end_date": null
+                },
+                {
+                    "name": "round 10",
+                    "matchs": [],
+                    "start_date": "2021-12-31T10:45:11.280625",
+                    "end_date": null
+                }
+            ],
+            "players": [
+                42,
+                2,
+                3,
+                8
+            ],
+            "time_control": "Blitz",
+            "description": "the place to be"
+        },
+        "2": {
+            "id": 2,
+            "name": "Bb",
+            "location": "paris",
+            "start_date": "2022-01-07T09:56:42.974423",
+            "end_date": null,
+            "rounds": [
+                {
+                    "name": "round 1",
+                    "matchs": [
+                        {
+                            "player_1_Id": 2,
+                            "player_2_Id": 5,
+                            "score1": 0.0
+                        },
+                        {
+                            "player_1_Id": 3,
+                            "player_2_Id": 42,
+                            "score1": 0.0
+                        }
+                    ],
+                    "start_date": "2022-01-07T09:56:42.973085",
+                    "end_date": "2022-01-12T16:08:46.506711"
+                },
+                {
+                    "name": "round 2",
+                    "matchs": [],
+                    "start_date": "2022-01-07T09:56:42.973085",
+                }
+            ],
+            "players": [
+                3,
+                2,
+                5,
+                42
+            ],
+            "time_control": "Blitz",
+            "description": "fggh"
+        }
+    }
+}
